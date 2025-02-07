@@ -11,10 +11,10 @@ Complete the function to print out the string: This is a sentence.
 // profe, coloco comentarios para yo entender bien como lo hago poco a poco y se me quedé mejor la retención y comprensión. 
 
 let arr = ["This", "is", "a", "sentence."]; // declarar array
-function printOutString() {  // funcion.
+function printString() {  // funcion.
   console.log(arr.join(" "));
 }
-printOutString(); // This is a sentence.
+printString(); // This is a sentence.
 
 // intenté hacer una arrow function pero al ponerlo en el navegador me detectaba error y al hacerlo así, si me salió.
 
