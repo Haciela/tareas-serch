@@ -1,0 +1,28 @@
+/* Estilos para el header */
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Flexbox para alinear en horizontal */
+.container-fluid {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los íconos */
+    flex-wrap: wrap; /* Permite que se ajusten en pantallas pequeñas */
+    padding: 20px;
+}
+
+/* Estilos para las imágenes */
+.container-fluid img {
+    width: 80px; /* Tamaño de los íconos */
+    height: 80px;
+    transition: transform 0.3s ease; /* Animación al pasar el mouse */
+}
+
+/* Efecto hover */
+.container-fluid a:hover img {
+    transform: scale(1.2); /* Agranda la imagen al pasar el mouse */
+}
